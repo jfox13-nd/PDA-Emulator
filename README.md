@@ -1,9 +1,9 @@
 # PDA-Emulator
-A simple non-deterministic PDA emulator
+A simple non-deterministic PDA emulator. Both depth-first and breadth-first options are available to execute this algorithm.
 
 ## Usage
 ```
-Usage: pda.py transitions.json input_string.txt [-h] [-md MAX_RECURSION_DEPTH]
+Usage: pda.py transitions.json input_string.txt [-h] [-md MAX_RECURSION_DEPTH] [-t depth|breadth]
 ```
 Write your transitions into a file `transitions.json` in the following format:
 ```

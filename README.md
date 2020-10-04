@@ -23,3 +23,6 @@ A `TRANSITION` is defined as follows:
 ```
 If there is no `required_input_token` or `required_stack_top_token` or `stack_push_token` in the transition then this can be expressed with an empty string.
 The starting state must be named `START` and a transtition into an acceptiing state must have a next state of `ACC`.
+
+## Sample Inputs
+The included `transitions_sample.json` will accept matching parentheses of the form `{(^n)^n}`

@@ -14,7 +14,6 @@ Write your transitions into a file `transitions.json` in the following format:
 }
 ```
 Where:
-State: (next_state, required_input, required_stack_top, pushed_token)
 ```
     "STATE": [TRANSITION1, TRANSITION1 ...]
 ```

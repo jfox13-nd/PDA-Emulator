@@ -3,7 +3,7 @@ A simple non-deterministic PDA emulator
 
 ## Usage
 ```
-Usage: {} transitions.json input_string.txt [-h] [-md MAX_RECURSION_DEPTH]
+Usage: pda.py transitions.json input_string.txt [-h] [-md MAX_RECURSION_DEPTH]
 ```
 Write your transitions into a file `transitions.json` in the following format:
 ```
